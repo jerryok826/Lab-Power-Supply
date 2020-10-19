@@ -1,0 +1,83 @@
+[178057.361685] usb 1-1: USB disconnect, device number 53
+[178057.361692] usb 1-1.1: USB disconnect, device number 54
+[178081.384542] usb 1-1: new high-speed USB device number 63 using xhci_hcd
+[178081.534217] usb 1-1: New USB device found, idVendor=05e3, idProduct=0608, bcdDevice=77.64
+[178081.534233] usb 1-1: New USB device strings: Mfr=0, Product=1, SerialNumber=0
+[178081.534243] usb 1-1: Product: USB2.0 Hub
+[178081.540317] hub 1-1:1.0: USB hub found
+[178081.540746] hub 1-1:1.0: 4 ports detected
+[178081.828556] usb 1-1.1: new full-speed USB device number 64 using xhci_hcd
+[178081.935515] usb 1-1.1: New USB device found, idVendor=0483, idProduct=3748, bcdDevice= 1.00
+[178081.935530] usb 1-1.1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[178081.935539] usb 1-1.1: Product: STM32 STLink
+[178081.935546] usb 1-1.1: Manufacturer: STMicroelectronics
+[178081.935554] usb 1-1.1: SerialNumber: UÿpPuIT"%\xc2\x87
+[178082.032611] usb 1-1.4: new full-speed USB device number 65 using xhci_hcd
+[178082.134903] usb 1-1.4: New USB device found, idVendor=0483, idProduct=5740, bcdDevice= 2.00
+[178082.134909] usb 1-1.4: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[178082.134912] usb 1-1.4: Product: CDC-ACM module
+[178082.134915] usb 1-1.4: Manufacturer: libusbcdc.c driver
+[178082.134917] usb 1-1.4: SerialNumber: WGDEMO
+[178082.187167] cdc_acm 1-1.4:1.0: ttyACM0: USB ACM device
+[178082.191019] usbcore: registered new interface driver cdc_acm
+[178082.191022] cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+jerryo@jerryo:~/stm32f103/stm32f103c8t6/rtos/LabPowerSupply$ 
+
+
+objdump -h main.elf
+
+readelf -a main.elf
+
+tkdiff 
+
+363279.429951] usb 1-2: Device not responding to setup address.
+[363279.638117] usb 1-2: Device not responding to setup address.
+[363279.845902] usb 1-2: device not accepting address 14, error -71
+[363279.973777] usb 1-2: new full-speed USB device number 15 using xhci_hcd
+[363279.974109] usb 1-2: Device not responding to setup address.
+[363280.182036] usb 1-2: Device not responding to setup address.
+[363280.390002] usb 1-2: device not accepting address 15, error -71
+[363280.390107] usb usb1-port2: unable to enumerate USB device
+[363325.192980] usb 1-2: new full-speed USB device number 16 using xhci_hcd
+[363325.320951] usb 1-2: device descriptor read/64, error -71
+[363325.579587] usb 1-2: New USB device found, idVendor=0483, idProduct=5740, bcdDevice= 2.00
+[363325.579604] usb 1-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[363325.579614] usb 1-2: Product: CDC-ACM module
+[363325.579624] usb 1-2: Manufacturer: libusbcdc.c driver
+[363325.579632] usb 1-2: SerialNumber: WGDEMO
+[363325.585994] cdc_acm 1-2:1.0: ttyACM0: USB ACM device
+jerryo@jerryo:~/stm32f103/stm32f103c8t6/rtos/LabPowerSupply_2$ ls /dev/tty*
+/dev/tty    /dev/tty17  /dev/tty26  /dev/tty35  /dev/tty44  /dev/tty53  /dev/tty62      /dev/ttyS11  /dev/ttyS20  /dev/ttyS3
+/dev/tty0   /dev/tty18  /dev/tty27  /dev/tty36  /dev/tty45  /dev/tty54  /dev/tty63      /dev/ttyS12  /dev/ttyS21  /dev/ttyS30
+/dev/tty1   /dev/tty19  /dev/tty28  /dev/tty37  /dev/tty46  /dev/tty55  /dev/tty7       /dev/ttyS13  /dev/ttyS22  /dev/ttyS31
+/dev/tty10  /dev/tty2   /dev/tty29  /dev/tty38  /dev/tty47  /dev/tty56  /dev/tty8       /dev/ttyS14  /dev/ttyS23  /dev/ttyS4
+/dev/tty11  /dev/tty20  /dev/tty3   /dev/tty39  /dev/tty48  /dev/tty57  /dev/tty9       /dev/ttyS15  /dev/ttyS24  /dev/ttyS5
+/dev/tty12  /dev/tty21  /dev/tty30  /dev/tty4   /dev/tty49  /dev/tty58  /dev/ttyACM0    /dev/ttyS16  /dev/ttyS25  /dev/ttyS6
+/dev/tty13  /dev/tty22  /dev/tty31  /dev/tty40  /dev/tty5   /dev/tty59  /dev/ttyprintk  /dev/ttyS17  /dev/ttyS26  /dev/ttyS7
+/dev/tty14  /dev/tty23  /dev/tty32  /dev/tty41  /dev/tty50  /dev/tty6   /dev/ttyS0      /dev/ttyS18  /dev/ttyS27  /dev/ttyS8
+/dev/tty15  /dev/tty24  /dev/tty33  /dev/tty42  /dev/tty51  /dev/tty60  /dev/ttyS1      /dev/ttyS19  /dev/ttyS28  /dev/ttyS9
+/dev/tty16  /dev/tty25  /dev/tty34  /dev/tty43  /dev/tty52  /dev/tty61  /dev/ttyS10     /dev/ttyS2   /dev/ttyS29  /dev/ttyUSB0
+jerryo@jerryo:~/stm32f103/stm32f103c8t6/rtos/LabPowerSupply_2$ 
+
+
+
+void
+usb_start(bool gpio_init,unsigned priority) {
+        usbd_device *udev = 0;
+
+        usb_txq = xQueueCreate(128,sizeof(char));
+        usb_rxq = xQueueCreate(128,sizeof(char));
+
+        if ( gpio_init ) {
+                rcc_periph_clock_enable(RCC_GPIOA);
+                rcc_periph_clock_enable(RCC_USB);
+        }
+
+        udev = usbd_init(&st_usbfs_v1_usb_driver,&dev,&config,
+                usb_strings,3,
+                usbd_control_buffer,sizeof(usbd_control_buffer));
+
+        usbd_register_set_config_callback(udev,cdcacm_set_config);
+
+        xTaskCreate(usb_task,"USB",300,udev,priority,NULL);
+}

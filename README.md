@@ -1,2 +1,4 @@
-# Lab-Power-Supply
-The hardware and software for a small stm32 based lab power supply
+NOTES:
+------
+
+Exploration of CAN, using the monitor on UART1.

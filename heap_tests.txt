@@ -1,0 +1,53 @@
+Current code use 10648 bytes of code. (14X1024)-3688 = 10648
+
+#define STACK_SIZE 600 
+=======================
+Heap4 and configTOTAL_HEAP_SIZE 14 * 1024
+Built on: Mar  8 2020, 06:59:17
+  Program: 15360 bytes, Heap: 3688 bytes, 3688 bytes
+===========================
+
+Heap4 and configTOTAL_HEAP_SIZE 13 * 1024
+Built on: Mar  8 2020, 07:18:20
+  Program: 15360 bytes, Heap: 2664 bytes, 2664 bytes
+
+===========================
+Heap4 and configTOTAL_HEAP_SIZE 12 * 1024
+> Built on: Mar  8 2020, 07:19:33
+  Program: 15360 bytes, Heap: 1640 bytes, 1640 bytes
+
+===========================
+Heap4 and configTOTAL_HEAP_SIZE 11 * 1024
+ Built on: Mar  8 2020, 07:20:42
+  Program: 15360 bytes, Heap: 616 bytes, 616 bytes
+
+===========================
+Heap4 and configTOTAL_HEAP_SIZE 11 * 1024
+Does not boot!!
+
+===========================
+Heap4 and configTOTAL_HEAP_SIZE 15 * 1024
+Does not boot!!
+
+===================================
+Heap4 and configTOTAL_HEAP_SIZE 14 * 1024  // stack size 800
+ Built on: Mar  8 2020, 07:25:09
+  Program: 15360 bytes, Heap: 488 bytes, 488 bytes
+
+===================================
+Heap1 and configTOTAL_HEAP_SIZE 14 * 1024  // stack size 600
+Built on: Mar  8 2020, 07:31:25
+  Program: 15360 bytes, Heap: 3776 bytes, 0 bytes
+
+===================================
+Heap2 and configTOTAL_HEAP_SIZE 14 * 1024  // stack size 600
+ Built on: Mar  8 2020, 07:36:05
+  Program: 15360 bytes, Heap: 3696 bytes, 0 bytes
+
+===================================
+Heap3 and configTOTAL_HEAP_SIZE 14 * 1024  // stack size 600
+ 
+=========================================
+ Heap5 and configTOTAL_HEAP_SIZE 14 * 1024  // stack size 600
+ does not run
+

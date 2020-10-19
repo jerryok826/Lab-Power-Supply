@@ -1,0 +1,39 @@
+
+main.elf:     file format elf32-little
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         00009984  08000000  08000000  00010000  2**4
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .preinit_array 00000000  08009984  08009984  000204d0  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 .init_array   00000000  08009984  08009984  000204d0  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  3 .fini_array   00000000  08009984  08009984  000204d0  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  4 .data         000004d0  20000000  08009984  00020000  2**3
+                  CONTENTS, ALLOC, LOAD, DATA
+  5 .bss          0000439c  200004d0  08009e54  000204d0  2**2
+                  ALLOC
+  6 .debug_info   0002b9f2  00000000  00000000  000204d0  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_abbrev 00006da5  00000000  00000000  0004bec2  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_loc    000115f5  00000000  00000000  00052c67  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_aranges 00001c70  00000000  00000000  00064260  2**3
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_ranges 00001f00  00000000  00000000  00065ed0  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_line   0000b53a  00000000  00000000  00067dd0  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 12 .debug_str    0001d8c0  00000000  00000000  0007330a  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 13 .comment      00000088  00000000  00000000  00090bca  2**0
+                  CONTENTS, READONLY
+ 14 .ARM.attributes 00000031  00000000  00000000  00090c52  2**0
+                  CONTENTS, READONLY
+ 15 .debug_frame  00004740  00000000  00000000  00090c84  2**2
+                  CONTENTS, READONLY, DEBUGGING
+ 16 .debug_macro  0000686d  00000000  00000000  000953c4  2**0
+                  CONTENTS, READONLY, DEBUGGING

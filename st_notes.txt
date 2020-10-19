@@ -1,0 +1,13 @@
+/usr/bin/st-flash --erase 
+
+/usr/bin/st-flash write main.bin 0x8000000
+
+/usr/bin/st-flash --debug write main.bin 0x8000000
+
+jerryo@jerryo:~/stm32f103/stm32f103c8t6/rtos/LabPowerSupply_4$ st-flash erase
+st-flash 1.5.0
+2020-05-28T21:10:26 INFO common.c: Loading device parameters....
+2020-05-28T21:10:26 INFO common.c: Device connected is: F1 High-density device, id 0x10036414
+2020-05-28T21:10:26 INFO common.c: SRAM size: 0x10000 bytes (64 KiB), Flash: 0 bytes (0 KiB) in pages of 2048 bytes
+Mass erasing
+

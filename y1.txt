@@ -1,0 +1,6 @@
+
+HDMI-LCD board cost:
+Quantity: 1 unit,     $31.17, Brd: $2.00, asm: ??
+Quantity: 10 units,   $29.43, Brd: $1.00, asm: ??
+Quantity: 100 units,  $24.03, Brd: $1.00, asm: $13.00
+Quantity: 1000 units, $19.88, Brd: $1.00, asm: $4.11
