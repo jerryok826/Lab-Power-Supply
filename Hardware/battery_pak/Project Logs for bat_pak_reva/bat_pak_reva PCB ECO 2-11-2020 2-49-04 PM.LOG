@@ -1,0 +1,30 @@
+Removed Pin From Net: NetName=NetCN1_2 Pin=CN5-1
+Removed Pin From Net: NetName=NetCN1_2 Pin=CN10-1
+Added Component: Designator=F2(2920 Fuse)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Case/Package"; Value = "2920"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "2920"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "7351"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Hold Current"; Value = "5A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "7.98mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Rating"; Value = "40A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Power Dissipation"; Value = "2W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Time to Trip"; Value = "5s"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Trip Current"; Value = "10A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "5.44mm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetCN1_2 Pin=F2-2
+Added Pin To Net: NetName=NetCN5_1 Pin=CN5-1
+Added Pin To Net: NetName=NetCN5_1 Pin=CN10-1
+Added Pin To Net: NetName=NetCN5_1 Pin=F2-1
+Added Net: Name=NetCN5_1
+Added Member To Class: ClassName=bat_pak_reva Member=Component F2 2920L500/16MR
+Added Room: Name=bat_pak_reva

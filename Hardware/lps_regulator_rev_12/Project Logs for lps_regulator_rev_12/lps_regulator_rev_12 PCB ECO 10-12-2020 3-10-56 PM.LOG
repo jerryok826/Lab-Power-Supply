@@ -1,0 +1,469 @@
+Removed Pin From Net: NetName=-2V5 Pin=-2V5-1
+Removed Pin From Net: NetName=3V3 Pin=C16-1
+Removed Pin From Net: NetName=GND Pin=C16-2
+Removed Pin From Net: NetName=GND Pin=C17-2
+Removed Pin From Net: NetName=+5V0 Pin=C25-1
+Removed Pin From Net: NetName=GND Pin=C25-2
+Removed Pin From Net: NetName=-2V5 Pin=C29-2
+Removed Pin From Net: NetName=-2V5 Pin=C48-1
+Removed Pin From Net: NetName=GND Pin=C48-2
+Removed Pin From Net: NetName=-2V5 Pin=C49-1
+Removed Pin From Net: NetName=GND Pin=C49-2
+Removed Pin From Net: NetName=VA_TP_GAIN Pin=R4-2
+Removed Pin From Net: NetName=GND Pin=R13-1
+Removed Pin From Net: NetName=GND Pin=R15-1
+Removed Pin From Net: NetName=-2V5 Pin=R24-2
+Removed Pin From Net: NetName=3V3 Pin=R28-1
+Removed Pin From Net: NetName=NetC47_2 Pin=R31-1
+Removed Pin From Net: NetName=V_offset_adj Pin=R31-2
+Removed Pin From Net: NetName=-2V5 Pin=R33-1
+Removed Pin From Net: NetName=GND Pin=R33-2
+Removed Pin From Net: NetName=NetC47_2 Pin=U4-2
+Removed Pin From Net: NetName=NetQ3_3 Pin=U4-3
+Removed Pin From Net: NetName=-2V5 Pin=U4-4
+Removed Pin From Net: NetName=I_Sample Pin=U4-5
+Removed Pin From Net: NetName=NetC30_2 Pin=U4-6
+Removed Pin From Net: NetName=NetC30_1 Pin=U4-7
+Removed Pin From Net: NetName=+VIN_SW Pin=U4-8
+Removed Pin From Net: NetName=-2V5 Pin=U5-2
+Removed Pin From Net: NetName=-2V5 Pin=U5-3
+Removed Pin From Net: NetName=-2V5 Pin=U5-6
+Removed Pin From Net: NetName=-2V5 Pin=U5-7
+Removed Pin From Net: NetName=3V3 Pin=U8-1
+Removed Pin From Net: NetName=VA_TP_GAIN Pin=U9-1
+Removed Pin From Net: NetName=VA_TP Pin=U9-3
+Removed Pin From Net: NetName=IA_TP Pin=U9-5
+Removed Pin From Net: NetName=GND Pin=U12-1
+Removed Pin From Net: NetName=+5V0 Pin=U12-2
+Removed Pin From Net: NetName=Net-5V0_1 Pin=U12-3
+Removed Pin From Net: NetName=GND Pin=U12-4
+Removed Pin From Net: NetName=GND Pin=U13-1
+Removed Pin From Net: NetName=Net-5V0_1 Pin=U13-2
+Removed Pin From Net: NetName=Net-5V0_1 Pin=U13-3
+Removed Pin From Net: NetName=-2V5 Pin=U13-5
+Removed Member From Class: ClassName=lps_regulator_rev_e Member=-2V5
+Removed Member From Class: ClassName=lps_regulator_rev_e Member=C48
+Removed Member From Class: ClassName=lps_regulator_rev_e Member=C49
+Removed Member From Class: ClassName=lps_regulator_rev_e Member=C50
+Removed Member From Class: ClassName=lps_regulator_rev_e Member=R33
+Removed Member From Class: ClassName=lps_regulator_rev_e Member=U14
+Change Component Footprint: Designator=U8 Old Footprint=SOT23 New Footprint=TCA9534APWR-Footprint-1
+Change Component Footprint: Designator=U13 Old Footprint=SOt-23-5 New Footprint=SOt-23-6
+Change Component Comment : Designator=C30 Old Comment=0.1uF New Comment=10uF
+Change Component Comment : Designator=U8 Old Comment=ISL21010CF315Z New Comment=TCA9534APWR
+Change Component Comment : Designator=U10 Old Comment=LD29150DT50R New Comment=
+Change Component Comment : Designator=U13 Old Comment=TPS723 New Comment=LM2776
+Change Component Designator: OldDesignator=+5V0 NewDesignator=+2
+Change Component Designator: OldDesignator=+VIN_SW NewDesignator=+VIN_SW1
+Change Component Designator: OldDesignator=-5V0 NewDesignator=-1
+Change Component Designator: OldDesignator=3V3 NewDesignator=1
+Change Component Designator: OldDesignator=C1 NewDesignator=C26
+Change Component Designator: OldDesignator=C2 NewDesignator=C36
+Change Component Designator: OldDesignator=C3 NewDesignator=C16
+Change Component Designator: OldDesignator=C4 NewDesignator=C24
+Change Component Designator: OldDesignator=C5 NewDesignator=C25
+Change Component Designator: OldDesignator=C6 NewDesignator=C34
+Change Component Designator: OldDesignator=C7 NewDesignator=C27
+Change Component Designator: OldDesignator=C8 NewDesignator=C17
+Change Component Designator: OldDesignator=C9 NewDesignator=C18
+Change Component Designator: OldDesignator=C10 NewDesignator=C12
+Change Component Designator: OldDesignator=C11 NewDesignator=C13
+Change Component Designator: OldDesignator=C12 NewDesignator=C14
+Change Component Designator: OldDesignator=C13 NewDesignator=C19
+Change Component Designator: OldDesignator=C14 NewDesignator=C39
+Change Component Designator: OldDesignator=C15 NewDesignator=C30
+Change Component Designator: OldDesignator=C18 NewDesignator=C29
+Change Component Designator: OldDesignator=C19 NewDesignator=C31
+Change Component Designator: OldDesignator=C21 NewDesignator=C40
+Change Component Designator: OldDesignator=C22 NewDesignator=C41
+Change Component Designator: OldDesignator=C23 NewDesignator=C45
+Change Component Designator: OldDesignator=C24 NewDesignator=C42
+Change Component Designator: OldDesignator=C26 NewDesignator=C37
+Change Component Designator: OldDesignator=C27 NewDesignator=C46
+Change Component Designator: OldDesignator=C28 NewDesignator=C43
+Change Component Designator: OldDesignator=C29 NewDesignator=C28
+Change Component Designator: OldDesignator=C30 NewDesignator=C32
+Change Component Designator: OldDesignator=C31 NewDesignator=C35
+Change Component Designator: OldDesignator=C32 NewDesignator=C6
+Change Component Designator: OldDesignator=C33 NewDesignator=C1
+Change Component Designator: OldDesignator=C34 NewDesignator=C4
+Change Component Designator: OldDesignator=C35 NewDesignator=C5
+Change Component Designator: OldDesignator=C36 NewDesignator=C7
+Change Component Designator: OldDesignator=C37 NewDesignator=C8
+Change Component Designator: OldDesignator=C38 NewDesignator=C9
+Change Component Designator: OldDesignator=C39 NewDesignator=C20
+Change Component Designator: OldDesignator=C40 NewDesignator=C21
+Change Component Designator: OldDesignator=C41 NewDesignator=C22
+Change Component Designator: OldDesignator=C42 NewDesignator=C15
+Change Component Designator: OldDesignator=C43 NewDesignator=C2
+Change Component Designator: OldDesignator=C44 NewDesignator=C11
+Change Component Designator: OldDesignator=C45 NewDesignator=C3
+Change Component Designator: OldDesignator=C46 NewDesignator=C10
+Change Component Designator: OldDesignator=C47 NewDesignator=C23
+Change Component Designator: OldDesignator=C50 NewDesignator=C38
+Change Component Designator: OldDesignator=CN1 NewDesignator=CN3
+Change Component Designator: OldDesignator=CN2 NewDesignator=CN5
+Change Component Designator: OldDesignator=CN3 NewDesignator=CN1
+Change Component Designator: OldDesignator=CN4 NewDesignator=CN2
+Change Component Designator: OldDesignator=CN5 NewDesignator=CN4
+Change Component Designator: OldDesignator=D1 NewDesignator=D3
+Change Component Designator: OldDesignator=D2 NewDesignator=D1
+Change Component Designator: OldDesignator=D3 NewDesignator=D2
+Change Component Designator: OldDesignator=GND3 NewDesignator=GND2
+Change Component Designator: OldDesignator=GND4 NewDesignator=GND3
+Change Component Designator: OldDesignator=GND5 NewDesignator=GND4
+Change Component Designator: OldDesignator=GND NewDesignator=GND1
+Change Component Designator: OldDesignator=I2C_SCL NewDesignator=I2
+Change Component Designator: OldDesignator=I2C_SDA NewDesignator=I1
+Change Component Designator: OldDesignator=I_sample NewDesignator=I_sample1
+Change Component Designator: OldDesignator=IA_TP NewDesignator=IA_TP1
+Change Component Designator: OldDesignator=LED1 NewDesignator=LED3
+Change Component Designator: OldDesignator=LED2 NewDesignator=LED1
+Change Component Designator: OldDesignator=OSA_TP NewDesignator=OSA_TP1
+Change Component Designator: OldDesignator=PWR_OUT NewDesignator=PWR_OUT1
+Change Component Designator: OldDesignator=Q1 NewDesignator=Q2
+Change Component Designator: OldDesignator=Q2 NewDesignator=Q6
+Change Component Designator: OldDesignator=Q3 NewDesignator=Q4
+Change Component Designator: OldDesignator=Q4 NewDesignator=Q3
+Change Component Designator: OldDesignator=Q5 NewDesignator=Q1
+Change Component Designator: OldDesignator=Q6 NewDesignator=Q5
+Change Component Designator: OldDesignator=R1 NewDesignator=R4
+Change Component Designator: OldDesignator=R2 NewDesignator=R3
+Change Component Designator: OldDesignator=R3 NewDesignator=R2
+Change Component Designator: OldDesignator=R5 NewDesignator=R6
+Change Component Designator: OldDesignator=R6 NewDesignator=R13
+Change Component Designator: OldDesignator=R7 NewDesignator=R14
+Change Component Designator: OldDesignator=R8 NewDesignator=R9
+Change Component Designator: OldDesignator=R9 NewDesignator=R12
+Change Component Designator: OldDesignator=R10 NewDesignator=R28
+Change Component Designator: OldDesignator=R11 NewDesignator=R25
+Change Component Designator: OldDesignator=R12 NewDesignator=R15
+Change Component Designator: OldDesignator=R14 NewDesignator=R8
+Change Component Designator: OldDesignator=R16 NewDesignator=R19
+Change Component Designator: OldDesignator=R17 NewDesignator=R20
+Change Component Designator: OldDesignator=R18 NewDesignator=R5
+Change Component Designator: OldDesignator=R19 NewDesignator=R24
+Change Component Designator: OldDesignator=R20 NewDesignator=R23
+Change Component Designator: OldDesignator=R23 NewDesignator=R11
+Change Component Designator: OldDesignator=R24 NewDesignator=R10
+Change Component Designator: OldDesignator=R25 NewDesignator=R32
+Change Component Designator: OldDesignator=R26 NewDesignator=R30
+Change Component Designator: OldDesignator=R27 NewDesignator=R7
+Change Component Designator: OldDesignator=R28 NewDesignator=R17
+Change Component Designator: OldDesignator=R29 NewDesignator=R1
+Change Component Designator: OldDesignator=R30 NewDesignator=R27
+Change Component Designator: OldDesignator=R32 NewDesignator=R31
+Change Component Designator: OldDesignator=REG_IN NewDesignator=REG_IN1
+Change Component Designator: OldDesignator=TP6 NewDesignator=TP1
+Change Component Designator: OldDesignator=U1 NewDesignator=U2
+Change Component Designator: OldDesignator=U2 NewDesignator=U9
+Change Component Designator: OldDesignator=U3 NewDesignator=U10
+Change Component Designator: OldDesignator=U5 NewDesignator=U4
+Change Component Designator: OldDesignator=U6 NewDesignator=U5
+Change Component Designator: OldDesignator=U9 NewDesignator=U3
+Change Component Designator: OldDesignator=U10 NewDesignator=U11
+Change Component Designator: OldDesignator=U11 NewDesignator=U12
+Change Component Designator: OldDesignator=U14 NewDesignator=U1
+Change Component Designator: OldDesignator=VA_TP NewDesignator=VA_TP1
+Change component parameters: Designator = "R24"; Footprint = "RESC0603(1608)_M"; UniqueID = "\IUENMGIU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Height"; Value = "550µm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 155°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package (Imperial)"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package (Metric)"; Value = "2012"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = "100mW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "1K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient"; Value = "±100ppm/°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R21"; Footprint = "RESC0603(1608)_M"; UniqueID = "\RTAWPFGF"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Height"; Value = "550µm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 155°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package (Imperial)"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package (Metric)"; Value = "1608"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = "100mW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "51K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient"; Value = "±100ppm/°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "U8"; Footprint = "TCA9534APWR-Footprint-1"; UniqueID = "\HZHVBEVD"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "TSSOP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Plating"; Value = "Gold"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Frequency"; Value = "400kHz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Interface"; Value = "I2C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of I/Os"; Value = "8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Outputs"; Value = "8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Pins"; Value = "16"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Added Component: Designator=+1(TestPoint-TH 42 mil)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Color"; Value = "Black"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "http://www.keyelco.com/product-pdf.cfm?p=1310"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.keyelco.com/product-pdf.cfm?p=1310"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Name"; Value = "TestPoint_BLK"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Base, Nylon 46, UL 94V-0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "0.040" (1.02mm) Hole Diameter"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Count"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "1=0.37, 10=0.316, 50=0.2298, 100=0.2209, 250=0.19832, 500=0.18932, 1000=0.1616, 2500=0.14424, 5000=0.13523 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "RoHS Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "335679"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Terminal"; Value = "0.010" x 0.020" (0.25mm x 0.51mm) Phosphor Bronze Wire, Silver Plated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "PC Test Point, Miniature"; VariantName = "[No Variations]"
+Added Component: Designator=C33(CAPC0603(1608)_M)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dielectric Material"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package (Imperial)"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package (Metric)"; Value = "1608"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature (Max)"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature (Min)"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage (Rated)"; Value = "16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C44(CAPC0603(1608)_M)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Capacitance"; Value = "1µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dielectric Material"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "900µm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "1.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package (Imperial)"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package (Metric)"; Value = "1608"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature (Max)"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature (Min)"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage (Rated)"; Value = "35V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "800µm"; VariantName = "[No Variations]"
+Added Component: Designator=LED2(SM-LED-0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ClassName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Color"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current - Test"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lens Color"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lens Style/Size"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lens Transparency"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lens Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Millicandela Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Count"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Device Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Viewing Angle"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Forward (Vf) (Typ)"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Wavelength - Dominant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Wavelength - Peak"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R16(RESC0603(1608)_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Height"; Value = "550µm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package (Imperial)"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package (Metric)"; Value = "1608"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "100mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "10k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "±25ppm/°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0.1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R18(RESC0603(1608)_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Height"; Value = "550µm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package (Imperial)"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package (Metric)"; Value = "1608"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "100mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "10k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "±25ppm/°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0.1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R26(RESC0603(1608)_M)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Height"; Value = "550µm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package (Imperial)"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package (Metric)"; Value = "2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "100mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "1k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "±100ppm/°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R29(RESC0603(1608)_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Height"; Value = "550µm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package (Imperial)"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package (Metric)"; Value = "1608"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "100mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "10k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "±25ppm/°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0.1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=U6(SOIC-8_NoPad)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Amplifier Type"; Value = "General Purpose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Base Part Number"; Value = "OPA2320"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "http://www.ti.com/lit/ds/symlink/opa2320.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.ti.com/lit/ds/symlink/opa2320.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Name"; Value = "OPA2320"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current - Supply"; Value = "1.45mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "OPA2320AIDR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Type"; Value = "Rail-to-Rail"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "8-SOIC (0.154", 3.90mm Width)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Cut Tape (CT)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Count"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "1=3, 10=2.697, 100=2.2094, 500=1.88078, 1000=1.5862 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "RoHS Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Slew Rate"; Value = "10 V/µs"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "OLogic-OpAmps.SCHLIB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "3660"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Device Package"; Value = "8-SOIC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Supply, Single/Dual (±)"; Value = "1.8 V ~ 5.5 V, ±0.9 V ~ 2.75 V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5V0 Pin=+1-1
+Added Pin To Net: NetName=Net-5V0_1 Pin=C28-2
+Added Pin To Net: NetName=GND Pin=C33-2
+Added Pin To Net: NetName=Net-5V0_1 Pin=R10-2
+Added Pin To Net: NetName=V_offset_adj Pin=R12-2
+Added Pin To Net: NetName=VA_TP_GAIN Pin=R16-2
+Added Pin To Net: NetName=+5V0 Pin=R17-1
+Added Pin To Net: NetName=GND Pin=R18-1
+Added Pin To Net: NetName=IA_TP Pin=R20-1
+Added Pin To Net: NetName=3V3 Pin=R26-1
+Added Pin To Net: NetName=3V3 Pin=R29-1
+Added Pin To Net: NetName=NetC47_2 Pin=U3-2
+Added Pin To Net: NetName=NetQ3_3 Pin=U3-3
+Added Pin To Net: NetName=GND Pin=U3-5
+Added Pin To Net: NetName=Net-5V0_1 Pin=U4-2
+Added Pin To Net: NetName=Net-5V0_1 Pin=U4-3
+Added Pin To Net: NetName=Net-5V0_1 Pin=U4-6
+Added Pin To Net: NetName=Net-5V0_1 Pin=U4-7
+Added Pin To Net: NetName=NetC30_1 Pin=U6-1
+Added Pin To Net: NetName=NetC30_2 Pin=U6-2
+Added Pin To Net: NetName=I_Sample Pin=U6-3
+Added Pin To Net: NetName=VA_TP Pin=U6-5
+Added Pin To Net: NetName=VA_TP_GAIN Pin=U6-7
+Added Pin To Net: NetName=GND Pin=U8-1
+Added Pin To Net: NetName=GND Pin=U8-2
+Added Pin To Net: NetName=Current_Limit Pin=U8-4
+Added Pin To Net: NetName=OUTPUT_ENB Pin=U8-5
+Added Pin To Net: NetName=GND Pin=U8-8
+Added Pin To Net: NetName=I2C_SCL Pin=U8-14
+Added Pin To Net: NetName=I2C_SDA Pin=U8-15
+Added Pin To Net: NetName=3V3 Pin=U8-16
+Added Pin To Net: NetName=Net-5V0_1 Pin=U13-1
+Added Pin To Net: NetName=GND Pin=U13-2
+Added Pin To Net: NetName=+5V0 Pin=U13-3
+Added Pin To Net: NetName=+5V0 Pin=U13-4
+Change Net Name : Old Net Name=Net-5V0_1 New Net Name=-5V0
+Change Net Name : Old Net Name=NetC30_1 New Net Name=NetC32_1
+Change Net Name : Old Net Name=NetC30_2 New Net Name=NetC32_2
+Change Net Name : Old Net Name=NetC31_1 New Net Name=NetC35_1
+Change Net Name : Old Net Name=NetC31_2 New Net Name=NetC35_2
+Change Net Name : Old Net Name=NetC32_1 New Net Name=NetC6_1
+Change Net Name : Old Net Name=NetC36_1 New Net Name=NetC7_1
+Change Net Name : Old Net Name=NetC36_2 New Net Name=NetC7_2
+Change Net Name : Old Net Name=NetC39_1 New Net Name=NetC20_1
+Change Net Name : Old Net Name=NetC40_1 New Net Name=NetC21_1
+Change Net Name : Old Net Name=NetC40_2 New Net Name=NetC21_2
+Change Net Name : Old Net Name=NetC42_1 New Net Name=NetC15_1
+Change Net Name : Old Net Name=NetC47_1 New Net Name=NetC23_1
+Change Net Name : Old Net Name=NetC47_2 New Net Name=NetC23_2
+Change Net Name : Old Net Name=NetCN1_3 New Net Name=NetCN3_3
+Change Net Name : Old Net Name=NetCN4_1 New Net Name=NetCN2_1
+Change Net Name : Old Net Name=NetCN5_1 New Net Name=NetCN4_1
+Change Net Name : Old Net Name=NetD2_1 New Net Name=NetD1_1
+Change Net Name : Old Net Name=NetD2_2 New Net Name=NetD1_2
+Change Net Name : Old Net Name=NetLED1_1 New Net Name=NetLED3_1
+Change Net Name : Old Net Name=NetLED2_1 New Net Name=NetLED1_1
+Change Net Name : Old Net Name=NetQ2_1 New Net Name=NetQ6_1
+Change Net Name : Old Net Name=NetQ3_2 New Net Name=NetQ4_2
+Change Net Name : Old Net Name=NetQ4_1 New Net Name=NetQ3_1
+Change Net Name : Old Net Name=NetQ5_3 New Net Name=NetQ1_3
+Change Net Name : Old Net Name=NetR11_1 New Net Name=NetR25_1
+Change Net Name : Old Net Name=NetR24_1 New Net Name=NetR10_1
+Added Pin To Net: NetName=/INT Pin=CN5-10
+Added Pin To Net: NetName=/INT Pin=R29-2
+Added Pin To Net: NetName=/INT Pin=U8-13
+Added Net: Name=/INT
+Added Pin To Net: NetName=/RST Pin=CN5-9
+Added Net: Name=/RST
+Added Pin To Net: NetName=Debug_LED Pin=LED2-2
+Added Pin To Net: NetName=Debug_LED Pin=U8-6
+Added Net: Name=Debug_LED
+Added Pin To Net: NetName=NetC26_1 Pin=C26-1
+Added Pin To Net: NetName=NetC26_1 Pin=R16-1
+Added Pin To Net: NetName=NetC26_1 Pin=R18-2
+Added Pin To Net: NetName=NetC26_1 Pin=U6-6
+Added Net: Name=NetC26_1
+Added Pin To Net: NetName=NetC44_1 Pin=C44-1
+Added Pin To Net: NetName=NetC44_1 Pin=U13-5
+Added Net: Name=NetC44_1
+Added Pin To Net: NetName=NetC44_2 Pin=C44-2
+Added Pin To Net: NetName=NetC44_2 Pin=U13-6
+Added Net: Name=NetC44_2
+Added Pin To Net: NetName=NetLED2_1 Pin=LED2-1
+Added Pin To Net: NetName=NetLED2_1 Pin=R26-2
+Added Net: Name=NetLED2_1
+Added Pin To Net: NetName=NetQ2_1 Pin=Q2-1
+Added Pin To Net: NetName=NetQ2_1 Pin=U3-1
+Added Net: Name=NetQ2_1
+Added Pin To Net: NetName=NetR11_1 Pin=R11-1
+Added Pin To Net: NetName=NetR11_1 Pin=U3-6
+Added Net: Name=NetR11_1
+Added Pin To Net: NetName=NetR11_2 Pin=R11-2
+Added Pin To Net: NetName=NetR11_2 Pin=U3-7
+Added Net: Name=NetR11_2
+Change Class Name : Old Net Name=lps_regulator_rev_e New Net Name=lps_regulator_rev_12
+Added Member To Class: ClassName=lps_regulator_rev_12 Member=Component +1 TestPoint_BLK
+Added Member To Class: ClassName=lps_regulator_rev_12 Member=Component LED3 0603 LED
+Added Room: Name=lps_regulator_rev_12

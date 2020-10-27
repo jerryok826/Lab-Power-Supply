@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=VA_TP_GAIN Pin=R34-2
+Removed Member From Class: ClassName=lps_regulator_rev_12 Member=R34
+Added Pin To Net: NetName=VA_TP_GAIN Pin=R4-2
+Added Room: Name=lps_regulator_rev_12

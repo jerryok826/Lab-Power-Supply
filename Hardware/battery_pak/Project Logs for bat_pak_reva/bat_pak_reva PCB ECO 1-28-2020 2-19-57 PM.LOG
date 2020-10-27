@@ -1,0 +1,58 @@
+Removed Pin From Net: NetName=NetCN1_1 Pin=CN2-1
+Removed Pin From Net: NetName=NetCN1_1 Pin=CN3-1
+Removed Pin From Net: NetName=NetCN1_1 Pin=CN4-1
+Added Component: Designator=CN9(Molex 1x2 Microfit 90deg)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Brand"; Value = "Molex"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ClassName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "http://www.mouser.com/ds/2/276/0436500204_PCB_HEADERS-168465.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.mouser.com/ds/2/276/0436500204_PCB_HEADERS-168465.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Name"; Value = "MICROFIT 3.0 HDR 90deg 2CKT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Brass"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Gold"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "5 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Housing Material"; Value = "Thermoplastic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Molex"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "43650-0204"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Angle"; Value = "Right"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Style"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tray"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Count"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "1=1.55, 10=1.23, 100=1.01, 500=0.961, 1000=0.855, 2000=0.710 (AUD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Category"; Value = "Micro-Fit 3.0 Connectors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Type"; Value = "Headers"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reeling"; Value = "False"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "RoHS Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS - Mouser"; Value = "Y"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "43650"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Standard Pack Qty"; Value = "3927"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "3217"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination Style"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tradename"; Value = "Micro-Fit 3.0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Shrouded"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "600 V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetCN1_1 Pin=CN6-1
+Added Pin To Net: NetName=NetCN1_1 Pin=CN7-2
+Added Pin To Net: NetName=NetCN1_2 Pin=CN1-2
+Added Pin To Net: NetName=NetCN1_2 Pin=CN2-2
+Added Pin To Net: NetName=NetCN1_2 Pin=CN3-2
+Added Pin To Net: NetName=NetCN1_2 Pin=CN4-2
+Added Net: Name=NetCN1_2
+Added Pin To Net: NetName=NetCN2_1 Pin=CN2-1
+Added Pin To Net: NetName=NetCN2_1 Pin=CN7-1
+Added Pin To Net: NetName=NetCN2_1 Pin=CN8-2
+Added Net: Name=NetCN2_1
+Added Pin To Net: NetName=NetCN3_1 Pin=CN3-1
+Added Pin To Net: NetName=NetCN3_1 Pin=CN5-2
+Added Pin To Net: NetName=NetCN3_1 Pin=CN8-1
+Added Net: Name=NetCN3_1
+Added Pin To Net: NetName=NetCN4_1 Pin=CN4-1
+Added Pin To Net: NetName=NetCN4_1 Pin=CN5-1
+Added Net: Name=NetCN4_1
+Added Member To Class: ClassName=bat_pak_reva Member=Component CN5 18650 Bat
+Added Member To Class: ClassName=bat_pak_reva Member=Component CN9 MICROFIT 3.0 HDR 90deg 2CKT
+Added Room: Name=bat_pak_reva

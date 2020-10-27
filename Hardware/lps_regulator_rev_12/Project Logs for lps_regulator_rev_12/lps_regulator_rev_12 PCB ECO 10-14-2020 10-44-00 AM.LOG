@@ -1,0 +1,33 @@
+Change Component Footprint: Designator=C25 Old Footprint=CAPC0603(1608)_M New Footprint=CAPC0603(1608)_N
+Change Component Footprint: Designator=C27 Old Footprint=CAPC0603(1608)_M New Footprint=CAPC0603(1608)_N
+Change component parameters: Designator = "C25"; Footprint = "CAPC0603(1608)_N"; UniqueID = "\IXSHDIRU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "10µF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dielectric Material"; Value = "Ceramic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "800µm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package (Imperial)"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package (Metric)"; Value = "1005"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature (Max)"; Value = "85°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature (Min)"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage (Rated)"; Value = "16V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "800µm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C27"; Footprint = "CAPC0603(1608)_N"; UniqueID = "\NYJQLTVS"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "10µF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dielectric Material"; Value = "Ceramic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "800µm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package (Imperial)"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package (Metric)"; Value = "1005"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature (Max)"; Value = "85°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature (Min)"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage (Rated)"; Value = "16V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "800µm"; VariantName = "[No Variations]"
+Added Room: Name=lps_regulator_rev_12

@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=C17 Old Footprint=CAPC0603(1608)_M New Footprint=CAPC0603(1608)_N
+Change Component Footprint: Designator=C26 Old Footprint=CAPC0603(1608)_M New Footprint=CAPC0603(1608)_N
+Change Component Footprint: Designator=R32 Old Footprint=RESC0603(1608)_M New Footprint=RESC0603(1608)_N
+Added Room: Name=lps_regulator_rev_12

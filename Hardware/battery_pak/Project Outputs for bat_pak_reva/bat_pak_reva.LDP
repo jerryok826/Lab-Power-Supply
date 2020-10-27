@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\circuits\Projects\battery_pak\bat_pak_reva.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=bat_pak_reva-roundholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=bat_pak_reva-slotholes.txt|DrillLayers=gtl,gbl
