@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\circuits\Projects\lps_display_rev_10\lps_display_rev_10.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=lps_display_rev_10-roundholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=lps_display_rev_10-slotholes.txt|DrillLayers=gtl,gbl
