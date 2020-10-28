@@ -1,0 +1,16 @@
+
+https://github.com/lambcutlet/DPS5005_pyGUI
+
+https://github.com/lambcutlet/DPS5005_pyGUI
+
+Akozon LCD Power Step-Down Module DPS3005 /DPS5005 Communication Version Buck Power Supply Step-Down Voltage Converter 0-5.000A,0-160.0W/0-250.0W Power Buck Module USB Communication(DPS3005)
+
+https://tech.scargill.net/dps5020-diy-power-supply/
+
+
+https://gojimmypi.blogspot.com/2017/04/opendps-with-dps5015.html
+
+https://tech.scargill.net/dps5020-diy-power-supply/
+
+
+https://sigrok.org/wiki/RDTech_DPS_series#Protocol
