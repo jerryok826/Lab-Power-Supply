@@ -1,24 +1,13 @@
-# STM32-ROMI
+# LPS
 
 ## Project Description
 
-The Silicon Valley [HomeBrew Robotics Club](http://www.hbrobotics.org/) built an awesome [FPGA ROMI](https://github.com/hbrc-fpga-class) robot late 2019. I was inspired to build my own version using an STM32F4  while keeping the board compatable with the previous Polulu ROMI base. The purpose of this was to familiarize myself with the STM32 environment and get a cool robot out of it. 
-
-The robot is designed to compete in the HBRC TableTop Challenge:
-
-A challenge where robots succeed by staying on the table or paying the price.
-
-Stage 1: Walk autonomously from one end of the table to the other without falling off.
-Stage 2: Find and push a block off of the table.
-Stage 3: Find and push a block off of the table into a box at the edge of the table.
- 
+The Silicon Valley [HomeBrew Robotics Club](http://www.hbrobotics.org/) built an awesome [FPGA ROMI](https://github.com/hbrc-fpga-class) robot late 2019. I was inspired 
  
 ### Project Status
-Robot is operational - working on tuning the PID loop for smooth driving
- **This project is still a work in progress**
+The project is basicly comlete. Working on imprvemntems.
 
-
-![Robot_Front](https://github.com/Elipsit/STM32-ROMI/blob/master/Pics/Robot/00000IMG_00000_BURST20200910130652117_COVER.jpg)
+![Robot_Front](https://github.com/jerryok826/Lab-Power-Supply/blob/main/Pictures/lps_bat_lps_load.jpeg)
 
 ## Design Files
 ### Electrical Design Files
@@ -35,8 +24,7 @@ The two drivers’ SLEEP pins (labeled SLP) are connected together by default an
 
 The following simplified truth table shows how each driver operates:
 
-#### Motor Driver Truth Table
-![Truth Table](https://github.com/Elipsit/STM32-ROMI/blob/master/Pics/DRV8838_Truth_Table.png)
+(https://github.com/Elipsit/STM32-ROMI/blob/master/Pics/DRV8838_Truth_Table.png)
 
 ### PCBA
 This project was manufactured by JLCPCB as an excuse for me to test their PCBA service.
