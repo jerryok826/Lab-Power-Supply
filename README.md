@@ -5,8 +5,7 @@
 The Silicon Valley [HomeBrew Robotics Club](http://www.hbrobotics.org/) built an awesome [FPGA ROMI](https://github.com/hbrc-fpga-class) robot late 2019. I was inspired 
  
 ### Project Status
-The project is basicly comlete. Working on imprvemntems.
-
+The project is basicly comlete. Working on improvements.
 ![Robot_Front](https://github.com/jerryok826/Lab-Power-Supply/blob/main/Pictures/lps_bat_lps_load.jpeg)
 
 ## Design Files
