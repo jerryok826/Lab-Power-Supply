@@ -1,4 +1,4 @@
-# LPS
+# Lab Power Supply
 
 ## Project Description
 
