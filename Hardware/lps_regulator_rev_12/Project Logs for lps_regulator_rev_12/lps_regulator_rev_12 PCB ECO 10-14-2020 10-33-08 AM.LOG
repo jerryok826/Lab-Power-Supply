@@ -1,3 +1,0 @@
-Removed Pin From Net: NetName=VA_TP Pin=R17-1
-Added Pin To Net: NetName=IA_TP Pin=R17-1
-Added Room: Name=lps_regulator_rev_12

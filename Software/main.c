@@ -62,6 +62,7 @@
 // 21. remove old switch code. Done
 // 22. Limit top output so its gracefull. Done
 // 23. Build diff amp to measure switcher ripple
+// 24. Add boot up diag, i2c checks, etc
 
 // indent -gnu -br -cli2 -lp -nut -l100 main.c
 // sudo gtkterm --port /dev/ttyACM0
@@ -98,10 +99,10 @@ static SemaphoreHandle_t i2c_mutex;
 static volatile bool show_rx = true;    // false;
 float mcp9808_float_temp = 0.0;
 char mcp9808_str[20] = "x.x";
-char Vin_str[10] = "0.0";
-char Vtop_str[10] = "12.0";
+char Vin_str[30] = "0.0"; 
+char Vtop_str[30] = "12.0";
 #define REGULATOR_DROP (3.0)
-float top_voltage_limit = 15.00;        // This should be calulate rom input voltage
+float top_voltage_limit = 15.00;  // This should be calculated from input voltage
 
 int v_dac_set = 0;
 int i_dac_set = 0;
@@ -459,10 +460,10 @@ splash_scr (void)
   mini_snprintf (buf, sizeof buf, "  %s", "   0 to 15 V, 1.5A");
   UG_PutString (0, 17, buf);
 
-#if 1
-  mini_snprintf (buf, sizeof buf, "   %s", "By: F.O. Design Works");
+#if 0
+//  mini_snprintf (buf, sizeof buf, "   %s", "By: F.O. Design Works");
+  mini_snprintf (buf, sizeof buf, "   %s", "By: Jerry Okeefe");
   UG_PutString (0, 34, buf);
-
 #else
   mini_snprintf (buf, sizeof buf, "Built: %s, %s", __DATE__, __TIME__);
   UG_PutString (0, 31, buf);
@@ -598,11 +599,11 @@ oled_task (void *arg __attribute__ ((unused)))
       UG_DrawLine (0, BAR_ROW + i, line_len, BAR_ROW + i, C_BLACK);
     }
 
-    UG_SetBackcolor (C_BLACK);
-    UG_SetForecolor (C_WHITE);
+//    UG_SetBackcolor (C_BLACK);
+//    UG_SetForecolor (C_WHITE);
 
-    UG_FontSelect (&FONT_8X12); // Change to lower font
-    UG_PutString (0, 17, "%A");
+//    UG_FontSelect (&FONT_8X12); // Change to lower font
+//    UG_PutString (0, 17, "%A");
     UG_SetBackcolor (C_WHITE);
     UG_SetForecolor (C_BLACK);
     UG_FontSelect (&FONT_8X12); // Change to lower font
@@ -644,7 +645,7 @@ oled_task (void *arg __attribute__ ((unused)))
     mini_snprintf (buf, sizeof buf, "Mode: %s, Temp: %sC", mode_str, mcp9808_str);
     UG_PutString (0, 37, buf);
 
-    if (top_voltage_limit < 9.0) {
+    if (top_voltage_limit < 8.0) {
        strcpy(Vtop_str, "input voltage to low!!");
        mini_snprintf (buf, sizeof buf, "Vin:%s, ERR: V INPUT LOW!!", Vin_str);
     } else {
@@ -707,7 +708,7 @@ mcp4728_access_test (void)
 }
 
 void
-mcp4728_init (void)
+mcp4728_init (void) 
 {
   mcp4728_write (0x00, 1, 2048 / 6);    // for 0.517 volts, value of 341
   mcp4728_write (0x01, 1, 546); // for 0.829 volts for 0.400 ma value of 546

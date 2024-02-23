@@ -1,3 +1,0 @@
-# GDB command file
-file main.elf
-target extended-remote :4242

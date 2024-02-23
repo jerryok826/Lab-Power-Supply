@@ -130,10 +130,10 @@ modbus_rx_deframe (char *buf_in, uint8_t * buf_out)
 
   len = strlen (buf_in + 1);
   for (i = 1; i < (len);) {
-    if (iscntrl (buf_in[i])) {
+    if (iscntrl ((int)buf_in[i])) {
       break;                    // check for \r \n 
     }
-    str[0] = buf_in[i];
+    str[0] = buf_in[i]; 
     str[1] = buf_in[i + 1];
     str[2] = 0;
     // Convert char to bytes
