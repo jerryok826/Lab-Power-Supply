@@ -37,7 +37,7 @@ Configuration1_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowPr
 OutputType2=PCB Print
 OutputName2=PCB Prints
 OutputCategory2=Documentation
-OutputDocumentPath2=lps_regulator_rev_12.PcbDoc
+OutputDocumentPath2=lps_regulator_rev_11.PcbDoc
 OutputVariantName2=
 OutputEnabled2=1
 OutputEnabled2_OutputMedium1=0
@@ -99,15 +99,15 @@ Configuration3_Name6=VisibleOrder
 Configuration3_Item6=Comment=120|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120
 
 [PublishSettings]
-OutputFilePath2=C:\circuits\Projects\lps_regulator_rev_12\.PDF
+OutputFilePath2=C:\circuits\Projects\lps_regulator_rev_11\.PDF
 ReleaseManaged2=0
-OutputBasePath2=C:\circuits\Projects\lps_regulator_rev_12\
+OutputBasePath2=C:\circuits\Projects\lps_regulator_rev_11\
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
 OutputPathOutputerPrefix2=
 OutputPathOutputerValue2=
-OutputFileName2=lps_regulator_rev_12.pdf
+OutputFileName2=lps_regulator_rev_11.pdf
 OutputFileNameMulti2=
 UseOutputNameForMulti2=1
 OutputFileNameSpecial2=
@@ -178,7 +178,7 @@ WmvVideoCodecName4=Windows Media Video V7
 WmvQuality4=80
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=C:\circuits\Projects\lps_regulator_rev_12\.PDF
+RelativeOutputPath2=C:\circuits\Projects\lps_regulator_rev_11\.PDF
 OpenOutputs2=1
 RelativeOutputPath3=
 OpenOutputs3=1
