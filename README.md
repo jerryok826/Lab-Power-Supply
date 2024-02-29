@@ -13,6 +13,6 @@ The project is basically complet. Working on converting to Kicad and STM32 IDE C
 
 ## Design Files
 ### Electrical Design Files
-This project was designed in Altium Designer 20 and an updated version in Kicad 7.X The control software is C code runing on FreeRTOS. 
+This project was initially designed with Altium Designer and is now being updated with Kicad 7.X The control software is C code runing on FreeRTOS. 
 
 
