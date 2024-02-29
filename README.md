@@ -10,7 +10,6 @@ The control processor is a stm32f103c8t6, with Arm Cortex-M3 MCU with 64 Kbytes 
  
 ### Project Status
 The project is basicly comlete. Working on improvements.
-![Robot_Front](https://github.com/jerryok826/Lab-Power-Supply/blob/main/Pictures/lps_bat_lps_load.jpeg)
 
 ## Design Files
 ### Electrical Design Files
