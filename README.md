@@ -15,6 +15,6 @@ The project is basicly comlete. Working on improvements.
 
 ## Design Files
 ### Electrical Design Files
-This project was designed in Altium Designer 20 and an updated version in Kicad 7.X
+This project was designed in Altium Designer 20 and an updated version in Kicad 7.X The control software is C code runing on freertos. 
 
 
