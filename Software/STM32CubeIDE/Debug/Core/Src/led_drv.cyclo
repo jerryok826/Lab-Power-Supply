@@ -1,0 +1,8 @@
+../Core/Src/led_drv.c:28:6:gpio_set	1
+../Core/Src/led_drv.c:34:6:gpio_clear	1
+../Core/Src/led_drv.c:62:1:led_on	3
+../Core/Src/led_drv.c:75:1:led_all_on	2
+../Core/Src/led_drv.c:84:1:led_off	3
+../Core/Src/led_drv.c:97:1:led_all_off	2
+../Core/Src/led_drv.c:106:1:led_toggle	2
+../Core/Src/led_drv.c:114:1:led_all_toggle	2

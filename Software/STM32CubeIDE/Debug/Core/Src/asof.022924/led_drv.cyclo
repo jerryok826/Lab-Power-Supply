@@ -1,0 +1,8 @@
+../Core/Src/asof.022924/led_drv.c:49:6:gpio_set	1
+../Core/Src/asof.022924/led_drv.c:55:6:gpio_clear	1
+../Core/Src/asof.022924/led_drv.c:83:1:led_on	3
+../Core/Src/asof.022924/led_drv.c:96:1:led_all_on	2
+../Core/Src/asof.022924/led_drv.c:105:1:led_off	3
+../Core/Src/asof.022924/led_drv.c:118:1:led_all_off	2
+../Core/Src/asof.022924/led_drv.c:127:1:led_toggle	2
+../Core/Src/asof.022924/led_drv.c:135:1:led_all_toggle	2

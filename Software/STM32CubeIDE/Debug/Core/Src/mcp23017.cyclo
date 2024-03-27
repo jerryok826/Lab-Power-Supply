@@ -1,0 +1,11 @@
+../Core/Src/mcp23017.c:35:1:mcp23017_write16	2
+../Core/Src/mcp23017.c:58:1:mcp23017_write8	2
+../Core/Src/mcp23017.c:77:1:mcp23017_reg_sel	2
+../Core/Src/mcp23017.c:93:5:mcp23017_access_test	1
+../Core/Src/mcp23017.c:102:1:mcp23017_read16	3
+../Core/Src/mcp23017.c:130:1:mcp23017_inputs	1
+../Core/Src/mcp23017.c:139:1:mcp23017_outputs	1
+../Core/Src/mcp23017.c:148:1:mcp23017_captured	1
+../Core/Src/mcp23017.c:157:1:mcp23017_interrupts	1
+../Core/Src/mcp23017.c:163:1:mcp23017_reset	1
+../Core/Src/mcp23017.c:182:1:mcp23017_init	1

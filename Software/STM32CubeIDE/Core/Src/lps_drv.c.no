@@ -1,0 +1,16 @@
+#include "main.h"
+#include <string.h>
+#include <stdio.h>
+
+extern UART_HandleTypeDef huart2;
+
+void test(void)
+{
+    uint8_t buf[20];
+    float temp_c = 3.3;
+
+ //   sprintf((char*)buf, "Jerry %u.%u Cc\r\n", ((unsigned int)temp_c / 100),((unsigned int)temp_c % 100));
+
+ //   HAL_UART_Transmit(&huart2, buf, strlen((char*)buf), HAL_MAX_DELAY);
+    printf("10440 corte de seville\r\n");
+}

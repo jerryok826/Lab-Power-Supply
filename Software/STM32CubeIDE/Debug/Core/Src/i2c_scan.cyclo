@@ -1,0 +1,3 @@
+../Core/Src/i2c_scan.c:11:5:i2c_device_access_test	2
+../Core/Src/i2c_scan.c:24:1:i2c_scan2	4
+../Core/Src/i2c_scan.c:47:1:i2c_scan	7

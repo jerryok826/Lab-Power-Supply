@@ -1,0 +1,5 @@
+../Core/Src/ina219.c:32:1:ina219_init	1
+../Core/Src/ina219.c:58:1:ina219_reset	1
+../Core/Src/ina219.c:64:1:ina219_access_test	1
+../Core/Src/ina219.c:71:1:ina219_reg_read	3
+../Core/Src/ina219.c:115:1:ina219_reg_write	2

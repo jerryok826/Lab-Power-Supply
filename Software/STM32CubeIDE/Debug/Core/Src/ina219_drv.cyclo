@@ -1,0 +1,9 @@
+../Core/Src/ina219_drv.c:20:1:voltage_read_int	1
+../Core/Src/ina219_drv.c:30:1:voltage_read	1
+../Core/Src/ina219_drv.c:42:1:current_read_int	2
+../Core/Src/ina219_drv.c:59:1:current_read	1
+../Core/Src/ina219_drv.c:71:1:ina219_init	1
+../Core/Src/ina219_drv.c:97:1:ina219_reset	1
+../Core/Src/ina219_drv.c:103:1:ina219_access_test	1
+../Core/Src/ina219_drv.c:110:1:ina219_reg_read	3
+../Core/Src/ina219_drv.c:138:1:ina219_reg_write	2

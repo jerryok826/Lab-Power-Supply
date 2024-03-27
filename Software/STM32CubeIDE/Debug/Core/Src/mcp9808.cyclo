@@ -1,0 +1,3 @@
+../Core/Src/mcp9808.c:18:1:mcp9808_init	1
+../Core/Src/mcp9808.c:27:1:mcp9808_reg_read	3
+../Core/Src/mcp9808.c:47:1:mcp9808_read	1

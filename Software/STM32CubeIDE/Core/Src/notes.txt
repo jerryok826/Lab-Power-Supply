@@ -1,0 +1,7 @@
+notes.txt
+~/STM32CubeIDE/workspace_1.14.0/lps_stm32f103RTC6_test1/Core/Src
+
+cd ~/STM32CubeIDE/workspace_1.14.0/
+tar -czvf lps_stm32f103RTC6_test1.tgz lps_stm32f103RTC6_test1
+cd lps_stm32f103RTC6_test1/Core/Src
+

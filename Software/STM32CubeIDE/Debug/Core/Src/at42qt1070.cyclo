@@ -1,0 +1,9 @@
+../Core/Src/at42qt1070.c:19:1:at42qt1070_init	1
+../Core/Src/at42qt1070.c:38:1:at42qt1070_reg_sel	2
+../Core/Src/at42qt1070.c:55:1:at42qt1070_AKS_clear	2
+../Core/Src/at42qt1070.c:68:1:at42qt1070_read8	3
+../Core/Src/at42qt1070.c:90:1:at42qt1070_write8	2
+../Core/Src/at42qt1070.c:109:1:at42qt1070_chip_id	1
+../Core/Src/at42qt1070.c:117:1:at42qt1070_det_status	1
+../Core/Src/at42qt1070.c:125:1:at42qt1070_key_status	1
+../Core/Src/at42qt1070.c:132:1:at42qt1070_show_status	1
