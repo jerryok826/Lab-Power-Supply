@@ -1,0 +1,38 @@
+=====================
+=====================
+../Core/Src/main_loop.c Built on: Mar 24 2026 @ 13:16:09
+0, ../Core/Src/main_loop.c lps_setup(403)
+
+
+
+Run Diagnostic Tests
+4 I2C devices found: 0x18,0x1B,0x40,0x60
+i2c devices f=====================
+=====================
+../Core/Src/main_loop.c Built on: Mar 24 2026 @ 13:16:09
+0, ../Core/Src/main_loop.c lps_setup(403)
+
+
+
+Run Diagnostic Tests
+4 I2C devices found: 0x18,0x1B,0x40,0x60
+i2c devices found: 4
+mcp23017_access_test: ../Core/Src/mcp23017.c mcp23017_read16(110) err: 1
+Passed
+at42qt1070_access_test: Passed
+mcp9808_access_test: Passed 32.12 C
+ina219_access_test: Passed
+mcp4728_access_test: Passed
+ina219_init(77) Reset Config reg: 0x399F
+ina219_init(90) Config reg: 0xA7FF
+v_set: 0.00V, iset: 1.50A
+chip_id: 0x2E, Det status: 0x00, Key status: 0x00
+Temperature 39.00 C, Vref 1.04 Volts, ch0 12.46 V
+Vin: 12.478V, Vtop: 12.0V
+V encoder: 1, -1
+V encoder: 1, -1, -0.05 0.05
+I encoder: 0, -1
+I encoder: 0, -1, 0.00 1.50
+V encoder: 3, -2
+V encoder: 3, -2, -0.05 0.10
+V encoder: 2, -1
